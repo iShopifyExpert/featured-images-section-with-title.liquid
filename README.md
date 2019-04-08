@@ -1,0 +1,1 @@
+# featured-images-section-with-title.liquid
