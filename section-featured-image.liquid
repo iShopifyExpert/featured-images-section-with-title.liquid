@@ -1,6 +1,6 @@
 {% if section.settings.show_slider %}
 <div class="collection-tiles">{% for block in section.blocks %}
-  <a href="{{ block.settings.url }}" class="collection-tiles__tile" title="Floor Lamps">{% if block.settings.image %}
+  <a href="{{ block.settings.link }}" class="collection-tiles__tile" title="Floor Lamps">{% if block.settings.image %}
     <img class="lazy" src="{{ block.settings.image | img_url: '1000x' }}" sizes="900vw" srcset="{{ block.settings.image | img_url: '1000x' }} 1x, {{ block.settings.image | img_url: '2000x' }} 2x" style="">{% endif %}
     <div class="collection-tiles__tile-reveal">
       <h3 class="collection-tiles__title-title">{{block.settings.title}}</h3>
